@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <limit.h>
 
 /**
  * main - printing all single digits from 0 to 10
