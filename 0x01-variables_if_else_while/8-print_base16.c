@@ -7,7 +7,7 @@
 int main(void)
 {
 	int num;
-	char alpha;
+	int alpha;
 
 	for (num = 0; num < 10; num++)
 	{
@@ -15,7 +15,7 @@ int main(void)
 	}
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
-		putchar("%c", alpha); 
+		putchar("%d", alpha); 
 	}
 	putchar('\n');
 	return (0);
