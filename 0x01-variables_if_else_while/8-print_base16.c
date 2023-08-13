@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - printing all digits in hexadecimal from 0 to 15 with lowercase letter
  *
