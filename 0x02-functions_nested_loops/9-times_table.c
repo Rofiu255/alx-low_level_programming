@@ -16,9 +16,29 @@ void times_table(void)
 		{
 			c = a * b;
 
+			if (c > 9)
+			{
+				d = c % 10;
+				e = (c - d) / 10;
+
+				_putchar(44);
+				_putchar(32);
+				_putchar(e + '0');
+				_putchar(d + '0');
+			}
+			else
+			{
+				if (y != 0)
+				{
+					_putchar(44);
+					_putchar(32);
+					_putchar(32);
+				}
+
+				_putchar(c + '0');
+			}
 			_putchar(c + '0');
 		}
-
-	_putchar('\n');
+		_putchar('\n');
 	}
 }
