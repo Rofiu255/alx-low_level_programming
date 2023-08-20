@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - causes an infinite loop
-* Return: 0
-*/
+ * main - causes an infinite loop
+ *
+ * @i: an integer declared
+ *
+ * Return: 0
+ */
 
 int main(void)
 {
