@@ -3,8 +3,6 @@
 /**
  * main - causes an infinite loop
  *
- * @i: an integer declared
- *
  * Return: 0
  */
 
