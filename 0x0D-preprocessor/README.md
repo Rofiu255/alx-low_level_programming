@@ -33,8 +33,5 @@ Write a function-like macro ABS(x) that computes the absolute value of a number 
 4. SUM
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
-
-
-
-
 Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y.
+
