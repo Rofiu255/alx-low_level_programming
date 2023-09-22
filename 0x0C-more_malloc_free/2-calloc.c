@@ -1,12 +1,13 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
-  * _calloc - ...
+  * _calloc - a function that  allocates memory for an array, using malloc
+  *
   * @nmemb: number of members
   * @size: size
   *
-  * Return: ...
+  * Return: return Nothing
   */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
