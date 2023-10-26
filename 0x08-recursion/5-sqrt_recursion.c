@@ -11,7 +11,7 @@ int _find_sqrt(int n, int i);
   */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n, 1));
+	return (_find_sqrt(n, 1));
 }
 
 /**
@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
   *
   * Return: the natural square root
   */
-int _sqrt(int n, int i)
+int _find_sqrt(int n, int i)
 {
 	int sqrt = i * i;
 
@@ -31,5 +31,5 @@ int _sqrt(int n, int i)
 	if (sqrt == n)
 		return (i);
 
-	return (_sqrt(n, i + 1));
+	return (_find_sqrt(n, i + 1));
 }
