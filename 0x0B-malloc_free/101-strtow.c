@@ -27,7 +27,9 @@ int word_len(char *str)
 }
 
 /**
- * count_words - a program that counts the number of words contained within a string.
+ * count_words - a program that counts the number of words
+ * contained within a string.
+ *
  * @str: The string to be searched.
  *
  * Return: The number of words contained within str.
