@@ -18,7 +18,7 @@ int get_strlen(char *str)
 {
 	int strlen = 0;
 
-	while (*strstr++)
+	while (*str++)
 		strlen++;
 
 	return (strlen);
@@ -101,7 +101,7 @@ void find_mul(char *prod, char *mult, int digit, int zeroes)
 {
 	int mult_len, num, tens = 0;
 
-	mult_len = find_len(mult) - 1;
+	mult_len = get_strlen(mult) - 1;
 	mult += mult_len;
 
 	while (*prod)
@@ -208,11 +208,11 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	size = find_len(argv[1]) + find_len(argv[2]);
+	size = get_strlen(argv[1]) + get_strlen(argv[2]);
 	final_prod = create_xarr(size + 1);
 	next_prod = create_xarr(size + 1);
 
-	for (i = find_len(argv[2]) - 1; i >= 0; i--)
+	for (i = get_strlen(argv[2]) - 1; i >= 0; i--)
 	{
 		digit = get_digit(*(argv[2] + i));
 		find_mul(next_prod, argv[1], digit, zeroes++);
