@@ -99,7 +99,7 @@ int main(int argc, char **argv)
 	keygen[0] = ((char *)alph)[(len ^ 59) & 63];
 	/* ----------- f2 ----------- */
 	chr = vchr = 0;
-	while (vch < len)
+	while (vchr < len)
 	{
 		chr = chr + argv[1][vchr];
 		vchr = vchr + 1;
